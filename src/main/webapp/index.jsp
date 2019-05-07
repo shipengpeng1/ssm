@@ -81,7 +81,7 @@
 			<div class="box registerBox wthree">
 				<span class="reg_bg"></span>
 				<h3>注册</h3>
-				<form class="form" action="#" method="post">
+				<form class="form" action="redistest/redis" method="post">
 					<div class="f_row-2">
 						<input type="text" class="input-field" placeholder="Username" name="name" required>
 					</div>
