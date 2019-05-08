@@ -10,5 +10,7 @@ public interface IUserService {
     int insert(User user);
     
     User login(String name,String passwd);
+    
+    int register(User user);
 
 }

@@ -10,5 +10,8 @@
         <select id="login" resultType="User" parameterType="String">
         SELECT * FROM user WHERE username= #{userName} and password= #{passwd}
     </select>
+    <insert id="register">
+      insert into user(id,password,username,status) values((select nextval("s_blog_account")),#{user.password},#{user.username},1)
+    </insert>
 
 </mapper>

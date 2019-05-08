@@ -29,5 +29,12 @@ public class UserServiceImpl implements IUserService {
 		return u;
 	}
 
+	@Override
+	public int register(User user) {
+		// TODO Auto-generated method stub
+		int i=userDao.register(user);
+		return i;
+	}
+
 
 }

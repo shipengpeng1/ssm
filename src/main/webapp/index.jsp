@@ -81,15 +81,15 @@
 			<div class="box registerBox wthree">
 				<span class="reg_bg"></span>
 				<h3>注册</h3>
-				<form class="form" action="redistest/redis" method="post">
+				<form class="form" action="user/register" method="post">
 					<div class="f_row-2">
-						<input type="text" class="input-field" placeholder="Username" name="name" required>
+						<input type="text" class="input-field" placeholder="Username" name="username" required>
 					</div>
 					<div class="f_row-2 last">
-						<input type="password" name="password" placeholder="Password" id="password1" class="input-field" required>
+						<input type="password" class="input-field" placeholder="Password"  name="password" required>
 					</div>
 					<div class="f_row-2 last">
-						<input type="password" name="password" placeholder="Confirm Password" id="password2" class="input-field" required>
+						<input type="password" name="password2" placeholder="Confirm Password" id="password2" class="input-field" required>
 					</div>
 					<input class="submit-w3" type="submit" value="注册">
 				</form>

@@ -5,4 +5,5 @@ import com.ssm.model.User;
 public interface IUserDao {
     User selectUser(long id);
     User login(@Param("userName")String userName ,@Param("passwd")String passwd);
+    int register(@Param("user")User user);
 }
