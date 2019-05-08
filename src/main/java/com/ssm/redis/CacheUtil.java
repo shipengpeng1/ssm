@@ -1,4 +1,4 @@
-package com.ssm.model;
+package com.ssm.redis;
  
 import java.util.Collections;
 import java.util.HashSet;
